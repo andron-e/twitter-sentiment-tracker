@@ -1,0 +1,83 @@
+INFO:root:Pipeline started
+INFO:root:Pipeline started
+INFO:root:Pipeline started
+INFO:root:Pipeline started
+INFO:root:Pipeline started
+INFO:snscrape.modules.twitter:Retrieving scroll page None
+INFO:snscrape.modules.twitter:Retrieving guest token
+INFO:snscrape.base:Retrieving https://twitter.com/search?f=live&lang=en&q=%24TSLA+lang%3Aen&src=spelling_expansion_revert_click
+INFO:snscrape.base:Error retrieving https://twitter.com/search?f=live&lang=en&q=%24TSLA+lang%3Aen&src=spelling_expansion_revert_click: SSLError(MaxRetryError("HTTPSConnectionPool(host='twitter.com', port=443): Max retries exceeded with url: /search?f=live&lang=en&q=%24TSLA+lang%3Aen&src=spelling_expansion_revert_click (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:992)')))")), retrying
+INFO:snscrape.base:Waiting 1 seconds
+INFO:snscrape.base:Retrieving https://twitter.com/search?f=live&lang=en&q=%24TSLA+lang%3Aen&src=spelling_expansion_revert_click
+INFO:snscrape.base:Error retrieving https://twitter.com/search?f=live&lang=en&q=%24TSLA+lang%3Aen&src=spelling_expansion_revert_click: SSLError(MaxRetryError("HTTPSConnectionPool(host='twitter.com', port=443): Max retries exceeded with url: /search?f=live&lang=en&q=%24TSLA+lang%3Aen&src=spelling_expansion_revert_click (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:992)')))")), retrying
+INFO:snscrape.base:Waiting 2 seconds
+INFO:snscrape.base:Retrieving https://twitter.com/search?f=live&lang=en&q=%24TSLA+lang%3Aen&src=spelling_expansion_revert_click
+INFO:snscrape.base:Error retrieving https://twitter.com/search?f=live&lang=en&q=%24TSLA+lang%3Aen&src=spelling_expansion_revert_click: SSLError(MaxRetryError("HTTPSConnectionPool(host='twitter.com', port=443): Max retries exceeded with url: /search?f=live&lang=en&q=%24TSLA+lang%3Aen&src=spelling_expansion_revert_click (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:992)')))")), retrying
+INFO:snscrape.base:Waiting 4 seconds
+INFO:snscrape.base:Retrieving https://twitter.com/search?f=live&lang=en&q=%24TSLA+lang%3Aen&src=spelling_expansion_revert_click
+ERROR:snscrape.base:Error retrieving https://twitter.com/search?f=live&lang=en&q=%24TSLA+lang%3Aen&src=spelling_expansion_revert_click: SSLError(MaxRetryError("HTTPSConnectionPool(host='twitter.com', port=443): Max retries exceeded with url: /search?f=live&lang=en&q=%24TSLA+lang%3Aen&src=spelling_expansion_revert_click (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:992)')))"))
+CRITICAL:snscrape.base:4 requests to https://twitter.com/search?f=live&lang=en&q=%24TSLA+lang%3Aen&src=spelling_expansion_revert_click failed, giving up.
+CRITICAL:snscrape.base:Errors: SSLError(MaxRetryError("HTTPSConnectionPool(host='twitter.com', port=443): Max retries exceeded with url: /search?f=live&lang=en&q=%24TSLA+lang%3Aen&src=spelling_expansion_revert_click (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:992)')))")), SSLError(MaxRetryError("HTTPSConnectionPool(host='twitter.com', port=443): Max retries exceeded with url: /search?f=live&lang=en&q=%24TSLA+lang%3Aen&src=spelling_expansion_revert_click (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:992)')))")), SSLError(MaxRetryError("HTTPSConnectionPool(host='twitter.com', port=443): Max retries exceeded with url: /search?f=live&lang=en&q=%24TSLA+lang%3Aen&src=spelling_expansion_revert_click (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:992)')))")), SSLError(MaxRetryError("HTTPSConnectionPool(host='twitter.com', port=443): Max retries exceeded with url: /search?f=live&lang=en&q=%24TSLA+lang%3Aen&src=spelling_expansion_revert_click (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:992)')))"))
+INFO:root:Pipeline started
+INFO:snscrape.modules.twitter:Retrieving scroll page None
+INFO:snscrape.modules.twitter:Retrieving guest token
+INFO:snscrape.base:Retrieving https://twitter.com/search?f=live&lang=en&q=%24TSLA+lang%3Aen&src=spelling_expansion_revert_click
+INFO:snscrape.base:Error retrieving https://twitter.com/search?f=live&lang=en&q=%24TSLA+lang%3Aen&src=spelling_expansion_revert_click: SSLError(MaxRetryError("HTTPSConnectionPool(host='twitter.com', port=443): Max retries exceeded with url: /search?f=live&lang=en&q=%24TSLA+lang%3Aen&src=spelling_expansion_revert_click (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:992)')))")), retrying
+INFO:snscrape.base:Waiting 1 seconds
+INFO:snscrape.base:Retrieving https://twitter.com/search?f=live&lang=en&q=%24TSLA+lang%3Aen&src=spelling_expansion_revert_click
+INFO:snscrape.base:Error retrieving https://twitter.com/search?f=live&lang=en&q=%24TSLA+lang%3Aen&src=spelling_expansion_revert_click: SSLError(MaxRetryError("HTTPSConnectionPool(host='twitter.com', port=443): Max retries exceeded with url: /search?f=live&lang=en&q=%24TSLA+lang%3Aen&src=spelling_expansion_revert_click (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:992)')))")), retrying
+INFO:snscrape.base:Waiting 2 seconds
+INFO:snscrape.base:Retrieving https://twitter.com/search?f=live&lang=en&q=%24TSLA+lang%3Aen&src=spelling_expansion_revert_click
+INFO:snscrape.base:Error retrieving https://twitter.com/search?f=live&lang=en&q=%24TSLA+lang%3Aen&src=spelling_expansion_revert_click: SSLError(MaxRetryError("HTTPSConnectionPool(host='twitter.com', port=443): Max retries exceeded with url: /search?f=live&lang=en&q=%24TSLA+lang%3Aen&src=spelling_expansion_revert_click (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:992)')))")), retrying
+INFO:snscrape.base:Waiting 4 seconds
+INFO:snscrape.base:Retrieving https://twitter.com/search?f=live&lang=en&q=%24TSLA+lang%3Aen&src=spelling_expansion_revert_click
+ERROR:snscrape.base:Error retrieving https://twitter.com/search?f=live&lang=en&q=%24TSLA+lang%3Aen&src=spelling_expansion_revert_click: SSLError(MaxRetryError("HTTPSConnectionPool(host='twitter.com', port=443): Max retries exceeded with url: /search?f=live&lang=en&q=%24TSLA+lang%3Aen&src=spelling_expansion_revert_click (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:992)')))"))
+CRITICAL:snscrape.base:4 requests to https://twitter.com/search?f=live&lang=en&q=%24TSLA+lang%3Aen&src=spelling_expansion_revert_click failed, giving up.
+CRITICAL:snscrape.base:Errors: SSLError(MaxRetryError("HTTPSConnectionPool(host='twitter.com', port=443): Max retries exceeded with url: /search?f=live&lang=en&q=%24TSLA+lang%3Aen&src=spelling_expansion_revert_click (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:992)')))")), SSLError(MaxRetryError("HTTPSConnectionPool(host='twitter.com', port=443): Max retries exceeded with url: /search?f=live&lang=en&q=%24TSLA+lang%3Aen&src=spelling_expansion_revert_click (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:992)')))")), SSLError(MaxRetryError("HTTPSConnectionPool(host='twitter.com', port=443): Max retries exceeded with url: /search?f=live&lang=en&q=%24TSLA+lang%3Aen&src=spelling_expansion_revert_click (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:992)')))")), SSLError(MaxRetryError("HTTPSConnectionPool(host='twitter.com', port=443): Max retries exceeded with url: /search?f=live&lang=en&q=%24TSLA+lang%3Aen&src=spelling_expansion_revert_click (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:992)')))"))
+INFO:root:Pipeline started
+INFO:snscrape.modules.twitter:Retrieving scroll page None
+INFO:snscrape.modules.twitter:Retrieving guest token
+INFO:snscrape.base:Retrieving https://twitter.com/search?f=live&lang=en&q=%24TSLA+lang%3Aen&src=spelling_expansion_revert_click
+INFO:snscrape.base:Error retrieving https://twitter.com/search?f=live&lang=en&q=%24TSLA+lang%3Aen&src=spelling_expansion_revert_click: SSLError(MaxRetryError("HTTPSConnectionPool(host='twitter.com', port=443): Max retries exceeded with url: /search?f=live&lang=en&q=%24TSLA+lang%3Aen&src=spelling_expansion_revert_click (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:992)')))")), retrying
+INFO:snscrape.base:Waiting 1 seconds
+INFO:snscrape.base:Retrieving https://twitter.com/search?f=live&lang=en&q=%24TSLA+lang%3Aen&src=spelling_expansion_revert_click
+INFO:snscrape.base:Error retrieving https://twitter.com/search?f=live&lang=en&q=%24TSLA+lang%3Aen&src=spelling_expansion_revert_click: SSLError(MaxRetryError("HTTPSConnectionPool(host='twitter.com', port=443): Max retries exceeded with url: /search?f=live&lang=en&q=%24TSLA+lang%3Aen&src=spelling_expansion_revert_click (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:992)')))")), retrying
+INFO:snscrape.base:Waiting 2 seconds
+INFO:snscrape.base:Retrieving https://twitter.com/search?f=live&lang=en&q=%24TSLA+lang%3Aen&src=spelling_expansion_revert_click
+INFO:snscrape.base:Error retrieving https://twitter.com/search?f=live&lang=en&q=%24TSLA+lang%3Aen&src=spelling_expansion_revert_click: SSLError(MaxRetryError("HTTPSConnectionPool(host='twitter.com', port=443): Max retries exceeded with url: /search?f=live&lang=en&q=%24TSLA+lang%3Aen&src=spelling_expansion_revert_click (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:992)')))")), retrying
+INFO:snscrape.base:Waiting 4 seconds
+INFO:snscrape.base:Retrieving https://twitter.com/search?f=live&lang=en&q=%24TSLA+lang%3Aen&src=spelling_expansion_revert_click
+ERROR:snscrape.base:Error retrieving https://twitter.com/search?f=live&lang=en&q=%24TSLA+lang%3Aen&src=spelling_expansion_revert_click: SSLError(MaxRetryError("HTTPSConnectionPool(host='twitter.com', port=443): Max retries exceeded with url: /search?f=live&lang=en&q=%24TSLA+lang%3Aen&src=spelling_expansion_revert_click (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:992)')))"))
+CRITICAL:snscrape.base:4 requests to https://twitter.com/search?f=live&lang=en&q=%24TSLA+lang%3Aen&src=spelling_expansion_revert_click failed, giving up.
+CRITICAL:snscrape.base:Errors: SSLError(MaxRetryError("HTTPSConnectionPool(host='twitter.com', port=443): Max retries exceeded with url: /search?f=live&lang=en&q=%24TSLA+lang%3Aen&src=spelling_expansion_revert_click (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:992)')))")), SSLError(MaxRetryError("HTTPSConnectionPool(host='twitter.com', port=443): Max retries exceeded with url: /search?f=live&lang=en&q=%24TSLA+lang%3Aen&src=spelling_expansion_revert_click (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:992)')))")), SSLError(MaxRetryError("HTTPSConnectionPool(host='twitter.com', port=443): Max retries exceeded with url: /search?f=live&lang=en&q=%24TSLA+lang%3Aen&src=spelling_expansion_revert_click (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:992)')))")), SSLError(MaxRetryError("HTTPSConnectionPool(host='twitter.com', port=443): Max retries exceeded with url: /search?f=live&lang=en&q=%24TSLA+lang%3Aen&src=spelling_expansion_revert_click (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:992)')))"))
+INFO:root:Pipeline started
+INFO:root:Pipeline started
+INFO:root:Pipeline started
+INFO:root:Pipeline started
+INFO:root:Pipeline started
+INFO:root:Pipeline started
+INFO:root:Pipeline started
+INFO:root:Pipeline started
+INFO:root:Pipeline started
+INFO:root:Pipeline started
+INFO:root:Pipeline started
+INFO:root:Pipeline started
+INFO:root:Pipeline started
+INFO:root:Pipeline started
+INFO:root:Pipeline started
+INFO:root:Pipeline started
+INFO:root:Pipeline started
+INFO:root:Pipeline started
+INFO:root:Pipeline started
+INFO:root:Pipeline started
+INFO:root:Pipeline started
+INFO:root:Pipeline started
+INFO:root:Pipeline started
+INFO:root:Pipeline started
+INFO:root:Pipeline started
+INFO:root:Pipeline started
+INFO:root:Pipeline started
+INFO:root:Pipeline started
+INFO:root:Pipeline started
+INFO:root:Pipeline started
+INFO:root:Pipeline started
