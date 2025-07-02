@@ -8,5 +8,9 @@ def clean_text(df):
         text = re.sub(r"[^a-zA-Z\s]", "", text)              # Keep only letters
         return text.lower().strip()
 
-    df["content"] = df["content"].apply(preprocess)
+    # Only apply if 'text' column exists and is not empty
+    if "text" in df.columns and not df.empty:
+        df["text"] = df["text"].fillna("").apply(preprocess)
+    else:
+        print("Warning: No 'text' column found or DataFrame is empty in clean_text.")
     return df
