@@ -37,17 +37,19 @@ def fetch_tweets(query, max_results=10):
 
 def fetch(tickers, max_results=10):
     all_tweets = []
-    for ticker in tickers:
-        # Remove $ to avoid cashtag operator error, use plain ticker
-        query = f"{ticker} lang:en"
-        tweets = fetch_tweets(query, max_results)
-        for tweet in tweets:
-            all_tweets.append({
-                "ticker": ticker,
-                "id": tweet["id"],
-                "text": tweet["text"],
-                "created_at": tweet["created_at"],
-                "author_id": tweet["author_id"],
-                "lang": tweet["lang"]
-            })
+    # Build a single query for all tickers using OR
+    query = " OR ".join(tickers) + " lang:en"
+    tweets = fetch_tweets(query, max_results)
+    for tweet in tweets:
+        text_lower = tweet["text"].lower()
+        for ticker in tickers:
+            if ticker.lower() in text_lower:
+                all_tweets.append({
+                    "ticker": ticker,
+                    "id": tweet["id"],
+                    "text": tweet["text"],
+                    "created_at": tweet["created_at"],
+                    "author_id": tweet["author_id"],
+                    "lang": tweet["lang"]
+                })
     return pd.DataFrame(all_tweets)

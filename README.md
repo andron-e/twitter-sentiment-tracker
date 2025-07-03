@@ -1,4 +1,11 @@
 # twitter-sentiment-tracker
+Creating a pipeline of data from Twitter to track sentiment on tech
+stocks. 
+
+
+
+
+X API
 
 Core Use Case, Intent, and Business Purpose:
 The primary purpose of my use of the X APIs is to collect and analyze public sentiment regarding specific stock tickers (such as $TSLA, $AAPL) as expressed on X (Twitter). The goal is to understand how public opinion on social media correlates with financial market trends. This project is for research and educational purposes, and is not connected to a commercial business.
