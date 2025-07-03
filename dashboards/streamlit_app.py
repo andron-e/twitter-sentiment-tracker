@@ -5,8 +5,17 @@ import pandas as pd
 import glob
 from sklearn.linear_model import LinearRegression
 import numpy as np
+import subprocess
 
 st.title("Twitter Sentiment Analysis Dashboard for Tech Stocks")
+
+# Button to run the pipeline and generate new processed data
+if st.button("Run Pipeline Now"):
+    with st.spinner("Running pipeline..."):
+        result = subprocess.run(["python", "run_pipeline.py"], capture_output=True, text=True)
+        st.success("Pipeline completed!")
+        st.text(result.stdout)
+        st.text(result.stderr)
 
 files = sorted(glob.glob("data/processed/*.csv"))
 if not files:
