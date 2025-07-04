@@ -2,3 +2,5 @@ config/\n__pycache__/\n*.log
 
 # Ignore Python cache files 
 .env
+.venv.venv/
+.venv/

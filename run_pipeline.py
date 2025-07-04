@@ -10,7 +10,7 @@ from pipeline.extract import trending_stocks
 def main():
     tickers = trending_stocks.get_trending(limit=3)
     print("Tracking:", tickers)
-    df = twitter_api.fetch(tickers, max_results=50)
+    df = twitter_api.fetch(tickers, max_results=10)
     df = clean_text.clean_text(df)
     df = sentiment_analysis.apply(df)
     to_csv.save(df)
